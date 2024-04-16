@@ -1,8 +1,8 @@
-#Module Programming and Testing Using the Google Colab Application
+# Module Programming and Testing Using the Google Colab Application
 
 [Google Colab](https://colab.research.google.com/)
 
-##Summary
+## Summary
 
 Experimenting with or developing modules in Colab requires some additional steps beyond entering code into a code cell and then executing the code in your custom module.  The reason for the additional steps is that developing a module requires one to save the python code in a file to a location that Colab's python interpreter can access.  
 
@@ -24,7 +24,7 @@ or
 
 which provide some simple information about the module. 
 
-##Workarounds
+## Workarounds
 
 One user has noticed that uploading a revision of an existing file to Colab's Files location is unreliable.  This affects the Constraints comments below, because the module file is not updated with your changes.  In the event that this occurs, one way to recover from the problem is to select the following in the Colab Header Menu:
 
@@ -32,6 +32,6 @@ One user has noticed that uploading a revision of an existing file to Colab's Fi
 
 2. After allowing a few minutes for the new runtime to initialize, upload the file and you should see it in the left-hand pane of files. 
 
-##Constraints
+## Constraints
 
 When using Colab, one has to upload the revised module file each time changes are needed.  Then, upload the revised file, import the importlib module, and reload the file using the importlib.reload(module_name) command. 
