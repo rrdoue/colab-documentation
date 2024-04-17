@@ -1,4 +1,4 @@
-# Creating Python Module Files in the Google colab Application
+# Creating Python Module Files in the Google Colab Application
 
 [Google Colab](https://colab.research.google.com/)
 
